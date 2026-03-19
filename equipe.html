@@ -6,22 +6,72 @@
     <title>Equipe- renaisance-fc</title>
     <style>
         body {
-            background-color: black;
+            background-color: #111;
             color: white;
-            margin: 15px;
-            text-decoration: none;
-            font-weight: bold;
+            font-family: Arial;
+            margin-top: 0;
+        }
+        header {
+          background-color: green;
+          padding: 20px;
+          text-align: center;
+        }
+        nav {
+          background-color: #222;
+          padding: 10px;
+          text-align: center;
+        }
+        nav a {
+          color: white;
+          margin: 15px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        nav a:hover {
+          color: gray;
+
+        }
+        .container {
+          padding: 2Opx;
+          text-align: center;
+        }
+        .joueur {
+          display: inline-block;
+          margin: 20px;
+          background-color: #222;
+          padding: 15px;
+          border-radius: 10px;
+          width: 200px;
         }
     </style>
 </head>
 <body>
-  <h1>Renaissance Fc - Equipe </h1>
-  <div>
+  <header>
+    <h1> Renaissance Fc</h1>
+    <p>unissons nos forces pour reussir </p>
+  </header>
+  <nav>
     <a href="index.html">Accueil</a>
     <a href="equipe.html"></a>
-  </div> 
-  <hr>
-  <h2>Nos joueurs</h2>
-  <p>liste des joeurs a venir...</p>
+    <a href="#">Matchs</a>
+    <a href="#">Contact</a>
+  </nav>
+    <div class="container">
+      <h2>Notre equipe</h2>
+      <div class="joueur">
+        <p><strong>pirlo</strong></p>
+        <p>post: attaquant</p>
+      </div>
+      <div class="joueur">
+        <p><strong>kewe</strong></p>
+        <p>post: defenseur</p>
+      </div>
+      <div class="joueur">
+        <p><strong>victor tode</strong></p>
+        <p>poste: milieu</p>
+      </div>
+
+    </div> 
+  
 </body>
 </html>
